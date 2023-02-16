@@ -1,1 +1,35 @@
-@import '~bootstrap/scss/bootstrap'
+@import '~bootstrap/scss/bootstrap';
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import '~resources/scss/partials/_mixins.scss';
+@import '~resources/scss/partials/_variables.scss';
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    height: 12vh;
+}
+
+main {
+    height: 200px;
+}
+
+
+img {
+    max-width: 100%;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
