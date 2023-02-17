@@ -13,6 +13,8 @@
     
 <!--Main-->
 
+    MAIN
+
 <!--Footer-->
     @include('partials.footer')
 

@@ -14,22 +14,37 @@ header {
     height: 12vh;
 }
 
-main {
-    height: 200px;
+ul {
+    list-style: none;
 }
 
-
-img {
-    max-width: 100%;
+a {
+    text-decoration: none;
+    color: $black;
 }
 
-.row {
-    display: flex;
-    width: 100%;
+.active {
+    color: $blue;
+    border-bottom: 3px solid $blue;
+    padding-bottom: 2em;
 }
 
-.col {
-    display: flex;
-    flex-direction: column;
+.height-full {
     height: 100%;
+}
+
+.img-full {
+    height: 70px;
+}
+
+.white {
+    color: $white;
+}
+
+.bg-blue {
+    background-color: $blue;
+}
+
+.font-12 {
+    font-size: 13px;
 }
