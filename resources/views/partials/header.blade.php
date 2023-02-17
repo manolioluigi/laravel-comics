@@ -12,7 +12,7 @@
     <div class="container height-full">
         <div class="row height-full">
             <div class="col-2 height-full d-flex align-items-center">
-                <img class="img-full" src="{{Vite::asset('resources/images/dc-logo.png')}}" alt="logo">
+                <img class="img-70" src="{{Vite::asset('resources/images/dc-logo.png')}}" alt="logo">
             </div>
             <div class="col-8 height-full">
                 <nav class="height-full d-flex align-items-center">
