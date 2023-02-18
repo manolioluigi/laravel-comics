@@ -29,6 +29,18 @@ a {
     padding-bottom: 2em;
 }
 
+.no-padding {
+    padding: 0;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+.relative {
+    position: relative;
+}
+
 .height-full {
     height: 100%;
 }
@@ -43,6 +55,13 @@ a {
 
 .img-maxw-50 {
     max-width: 50px;
+}
+
+.jumbo {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: top;
 }
 
 .white {
@@ -63,6 +82,10 @@ a {
 
 .bg-darkgray {
     background-color: $darkgray;
+}
+
+.bg-main {
+    background-color: $black;
 }
 
 .font-12 {
@@ -86,4 +109,47 @@ a {
     width: fit-content;
     padding: 5px 10px;
     font-size: 12px;
+}
+
+.blue-tag {
+    background-color: $blue;
+    max-width: fit-content;
+    padding: 10px 15px;
+    position: absolute;
+    top: 95%;
+    left: 15%;
+}
+
+.blue-tag-small {
+    background-color: $blue;
+    max-width: fit-content;
+    padding: 10px 50px;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 75%;
+    margin: auto;
+    justify-content: center;
+}
+
+.comic-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 200px;
+    height: 250px;
+    margin: 10px;
+}
+
+.comic-card span {
+    object-fit: cover;
+    font-size: 15px;
+}
+
+.comic-card img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
 }
